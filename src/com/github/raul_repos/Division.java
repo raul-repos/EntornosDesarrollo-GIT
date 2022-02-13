@@ -49,7 +49,7 @@ public class Division {
          * @return devuelve el inverso del numero real.
          * @throws IllegalArgumentException el parametro introducido no puede ser cero (0).
          */
-        public double Inverso(double a){
+        public double inverso(double a){
                 if (a == 0){
                         throw new IllegalArgumentException("El parametro introducido no puede ser cero");
                 }
@@ -63,7 +63,7 @@ public class Division {
          * @return la raiz cuadrada de un numero entero.
          * @throws IllegalArgumentException el parametro introducido debe ser un numero positivo.
          */
-        public double Raiz(int a){
+        public double raiz(int a){
                 if (a < 0) {
                         throw new IllegalArgumentException("El parametro introducido debe ser un numero positivo");
                 }
