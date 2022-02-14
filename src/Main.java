@@ -1,4 +1,6 @@
 import com.github.raul_repos.Division;
+import com.github.raul_repos.Suma;
+
 
 public class Main {
     public static void main(String[] args){
@@ -8,5 +10,9 @@ public class Main {
         Division d = new Division();
         double metodoUno = d.dividir(1,2);
         System.out.println(metodoUno);
+        Suma s = new Suma();
+        int SegundoMetodo = s.sumar(1,2);
+        System.out.println(SegundoMetodo);
+
     }
 }
